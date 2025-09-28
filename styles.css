@@ -29,10 +29,11 @@ button{background-color: var(--Green);width:90%;height: 3rem;border-color: var(-
 #two,#three{color: white;font-weight: 100;}
 
 @media (max-width:600px) {
-    main{width: 100vw;height:100dvh;grid-template:repeat(3, auto)/100%;overflow: auto;margin:0 2rem}
+    main{width: 90vw;height:100dvh;grid-template:repeat(3, auto)/100%;overflow: auto;margin:0 2rem}
     #one{grid-area: span 1;}
     #two{grid-area: span 2;}
     #three{grid-area: span 3;}
     
 
 }
+
